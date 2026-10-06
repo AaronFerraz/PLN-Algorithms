@@ -1,0 +1,15 @@
+{
+  "best_params": {
+    "learning_rate": 3e-05,
+    "num_train_epochs": 3,
+    "weight_decay": 0.0
+  },
+  "cross_validation_accuracy": 0.4568037159070439,
+  "classes": [
+    "c1",
+    "c234",
+    "c5"
+  ],
+  "model_name": "neuralmind/bert-base-portuguese-cased",
+  "notes": "A acurácia é a média de 5 folds StratifiedGroupKFold, agrupados por texto normalizado."
+}

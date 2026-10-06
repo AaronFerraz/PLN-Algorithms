@@ -1,0 +1,18 @@
+{
+  "oof_accuracy": 0.4538653841273847,
+  "best_params": {
+    "logistic_regression__C": 1.0,
+    "tfidf__max_df": 0.95,
+    "tfidf__min_df": 1,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ]
+  },
+  "classes": [
+    "c1",
+    "c234",
+    "c5"
+  ],
+  "rows_predicted": 900
+}

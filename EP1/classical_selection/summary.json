@@ -1,0 +1,47 @@
+{
+  "method": "5-fold StratifiedGroupKFold, groups=texto normalizado",
+  "winner": "TF-IDF palavras + Regressão Logística",
+  "winner_accuracy": 0.4570537736253099,
+  "all_results": [
+    {
+      "model": "TF-IDF palavras + Regressão Logística",
+      "mean_accuracy": 0.4570537736253099,
+      "std_accuracy": 0.009671098221494234,
+      "best_params": {
+        "model__C": 0.5
+      }
+    },
+    {
+      "model": "TF-IDF palavras+caracteres + Regressão Logística",
+      "mean_accuracy": 0.45451188894916533,
+      "std_accuracy": 0.005888517341906188,
+      "best_params": {
+        "model__C": 0.5
+      }
+    },
+    {
+      "model": "TF-IDF palavras+caracteres + ComplementNB",
+      "mean_accuracy": 0.45142574999075447,
+      "std_accuracy": 0.004885759168490141,
+      "best_params": {
+        "model__alpha": 0.3
+      }
+    },
+    {
+      "model": "TF-IDF palavras+caracteres + LinearSVC",
+      "mean_accuracy": 0.445251889176422,
+      "std_accuracy": 0.008212066376572064,
+      "best_params": {
+        "model__C": 0.3
+      }
+    },
+    {
+      "model": "TF-IDF palavras+caracteres + SGD modified-huber",
+      "mean_accuracy": 0.437589414799943,
+      "std_accuracy": 0.010136676424389549,
+      "best_params": {
+        "model__alpha": 0.0001
+      }
+    }
+  ]
+}
